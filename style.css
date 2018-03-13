@@ -1,0 +1,270 @@
+
+body{
+	margin:0;
+	text-align: center;
+	/*background-image:
+	linear-gradient(90deg, white 25%, transparent 0),
+	linear-gradient(90deg, #c10909 26%, transparent 0),
+	linear-gradient(90deg, white 26.3%, transparent 0),
+    linear-gradient(90deg, #c10909 73%, transparent 0),
+    linear-gradient(90deg, white 73.3%, transparent 0),
+    linear-gradient(90deg, #c10909 74.3%, transparent 0),
+    linear-gradient(90deg, white 100%, transparent 0);*/
+}
+
+/*//////////////////////////////////////////////////////////
+Navigatie balk
+///////////////////////////////////////////////////////////*/
+
+.menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #ffffffF7;
+	position: sticky;
+	top: 0;
+	z-index: 10;
+	margin-bottom: 15px;
+	padding: 0 5%;
+	height: 60px;
+	box-shadow: 0px 0px 10px #00000033;
+}
+
+h1{
+	font-family: "Raleway";
+	color: black;
+	padding: 0;
+	margin: 0;
+	margin-right: auto;
+}
+
+input {
+	text-align: center;
+	font-size: 0.8em;
+	border-width: 0;
+	border-bottom-width: 2px;
+	border-color: #c10909;
+	height: 25px;
+	width: 150px;
+	font-family: "Raleway";
+	background-color: transparent;
+}
+
+::placeholder {
+	color: black;
+	opacity: 0.5;
+}
+
+input:hover::placeholder , input:focus::placeholder {
+	opacity: 1;
+}
+
+:focus {
+	outline: none;
+	color: #c10909;
+}
+
+input:focus {
+	color: black;
+}
+
+input:focus::placeholder {
+	color: #c10909;
+}
+
+
+button {
+	
+	font-size: 0.8em;
+	margin-right: 10px;
+	border: 2px solid #c10909;
+	padding: 7px;
+	font-family: "Raleway";
+	color: grey;
+	background-color: white;
+}
+
+button:hover , button:active {
+	transition: 0.2s ease-out;
+	color:black;
+	cursor: pointer;
+}
+
+/*//////////////////////////////////////////////////////////
+Achtergrond
+///////////////////////////////////////////////////////////*/
+.normaal {
+background-image:
+	linear-gradient(90deg, white 25%, transparent 0),
+	linear-gradient(90deg, #c10909 26%, transparent 0),
+	linear-gradient(90deg, white 26.3%, transparent 0),
+    linear-gradient(90deg, #c10909 73%, transparent 0),
+    linear-gradient(90deg, white 73.3%, transparent 0),
+    linear-gradient(90deg, #c10909 74.3%, transparent 0),
+    linear-gradient(90deg, white 100%, transparent 0);
+}
+
+.grid {
+background-image:
+	linear-gradient(90deg, white 1%, transparent 0),
+	linear-gradient(90deg, #c10909 2%, transparent 0),
+	linear-gradient(90deg, white 2.5%, transparent 0),
+    linear-gradient(90deg, #c10909 72%, transparent 0),
+    linear-gradient(90deg, white 72.5%, transparent 0),
+    linear-gradient(90deg, #c10909 73.5%, transparent 0),
+    linear-gradient(90deg, white 100%, transparent 0);
+}
+
+/*//////////////////////////////////////////////////////////
+De burgemeesters
+///////////////////////////////////////////////////////////*/
+
+li img {
+	height: auto;
+	/*max-height: 50%;*/
+	object-fit: contain;
+	width: 100%;
+	transition: all 1.3s ease-in-out;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	cursor: pointer;
+}
+
+p {
+	font-family: 'Raleway';
+	font-size: 20px;
+	font-weight: bold;
+	background: white;
+	position: relative;
+	padding: 20px;
+	margin:0;
+}
+
+li {
+	transition: 0.2s ease;
+}
+
+li:hover {
+	transform: scale(1.05);
+}
+
+ul {
+	padding: 0;
+	list-style-type: none;
+}
+
+.normal-layout {
+	width: 30%;
+}
+
+
+.grid-layout {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-auto-rows: minmax(1fr);
+	grid-gap: 2em;
+	padding: 5em;
+	margin-right: 26% !important;
+}
+
+.reverse {
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+#images {
+	margin: 0 auto;
+}
+
+#images p, #images img {
+	pointer-events: none;
+}
+
+#images li {
+	margin-bottom: 5%;
+	background: white;
+	overflow: hidden;
+	border:10px solid white;
+	border-radius: 5px;
+	box-shadow: -3px 5px 20px 0px rgba(50, 50, 50, 0.75);
+	display: flex;
+	flex-direction: column;
+}
+
+/*//////////////////////////////////////////////////////////
+Aburgemeesters eed
+///////////////////////////////////////////////////////////*/
+
+h2{
+	width: 20%;
+	font-size: 0.8em;
+	color: black;
+	margin-left: 2.5%;
+	margin-bottom: 20vh;
+	z-index: -1;
+	font-family: 'Raleway';
+}
+
+.logo {
+	
+	height: auto;
+	max-width: 20%;
+	margin-left: 2.5%;
+}
+
+.eed {
+	display: flex;
+	flex-direction: column;
+	position: fixed;
+	margin-top: 15vh;
+	z-index: -1;
+}
+	
+.hide {
+	display: none;
+}
+
+/*//////////////////////////////////////////////////////////
+beschrijving
+///////////////////////////////////////////////////////////*/
+
+.beschrijving {
+	background: white;
+	height: 60%;
+	width: 25.5%;
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+	/*justify-content: center;*/
+	margin-top: 15vh;
+	right: 0;
+	z-index: 1;
+}
+
+h4 {
+	font-family: 'Raleway';
+	font-size: 14px;
+	padding: 5% 5%;
+	height: 100%;
+	overflow: auto;
+}
+
+h3 {
+	font-family: 'Raleway';
+	font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
