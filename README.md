@@ -5,7 +5,7 @@ Amsterdamse Burgemeesters gekoppeld aan wikipedia beschrijvingen
 Door: Niels Schopman
 ______________________________________________________________________________________________________________________________
 
-Mijn pagina koppeld de foto's van burgemeesters uit AdamLink aan Wikipedia beschrijvingen van die persoon. Dit gebeurt dynamisch doormiddel van de naam die gekoppeld is aan de persoon. Wanneer je de SPARQL querry aanpast naar iets anders dan burgemeester (zoals bijvoorbeeld artiesten) dan kan mijn pagina ook voor hen beschrijvingen ophalen mits er een naam (voornaam en achternaam) gekoppeld is aan de foto. 
+Mijn pagina koppelt de foto's van burgemeesters uit AdamLink aan Wikipedia beschrijvingen van die persoon. Dit gebeurt dynamisch doormiddel van de naam die gekoppeld is aan de persoon. Wanneer je de SPARQL querry aanpast naar iets anders dan burgemeester (zoals bijvoorbeeld artiesten) dan kan mijn pagina ook voor hen beschrijvingen ophalen mits er een naam (voornaam en achternaam) gekoppeld is aan de foto. 
 
 Verder kan je door de foto's zoeken doormiddel van een filter. De filter kijkt naar de letter-/cijfercombinatie die je ingeeft en of deze letter-/cijfercombinatie in de titel van de foto's voorkomt. 
 
