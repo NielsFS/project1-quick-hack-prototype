@@ -5,7 +5,8 @@ Amsterdamse Burgemeesters gekoppeld aan wikipedia beschrijvingen
 Door: Niels Schopman
 ______________________________________________________________________________________________________________________________
 
-WERKT ALLEEN IN CHROME EN FIREFOX
+LET OP!! Wikipedia heeft geen cors: "ORS-header ‘Access-Control-Allow-Origin’ ontbreekt" . Om mijn applicatie te laten werken moet je een chrome extensie "cors toggle" op chrome installeren. Het omzijlen van de Access-Control-Allow-Origin had in Javascript doormiddel van JSONP gedaan kunnen worden maar daar ben ik niet aan toe gekomen. Zonder CORS wordt de Wikipedia data niet opgehaald.
+______________________________________________________________________________________________________________________________
 
 Mijn pagina koppelt de foto's van burgemeesters uit AdamLink aan Wikipedia beschrijvingen van die persoon. Dit gebeurt dynamisch doormiddel van de naam die gekoppeld is aan de persoon. Wanneer je de SPARQL querry aanpast naar iets anders dan burgemeester (zoals bijvoorbeeld artiesten) dan kan mijn pagina ook voor hen beschrijvingen ophalen mits er een naam (voornaam en achternaam) gekoppeld is aan de foto. 
 
